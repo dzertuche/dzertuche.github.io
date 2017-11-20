@@ -1,6 +1,4 @@
 
-  <!doctype html>
-  
 <html>  
 <head>
 <title>  https://dzertuche.github.io/ </title>
