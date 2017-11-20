@@ -14,6 +14,7 @@
 <p><strong>Favorite Food:</strong> One of my favorite foods is Pizza <a href="Favorite Food.html"> Click here to see my favorite food</a></p><hr>
 <p><strong>Links Assignment:</strong> <a href="Links.html"> Click to view my Links Assignment</a></p><hr>
 <p><strong>Table Assignment:</strong> <a href="Table.html"> Click to view my Table Assignment</a></p><hr>
+<p><strong>Input Form Assignment:</strong> <a href="Input Form.html"> Click to view my Input Form Assignment</a></p><hr>
 </body>
 
 </html> 
