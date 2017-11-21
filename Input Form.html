@@ -1,71 +1,47 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN"> <!-- HTML version. -->
-
-<HTML> <!-- HTML open tag. -->
-
-<HEAD> <!-- Head open tag. -->
-
-<TITLE> FORM EXAMPLE </TITLE> <!-- Title tag -->
-
-</HEAD> <!-- Head close tag -->
-
-<BODY><!-- Body open tag -->
-
-<H1><Center>FORM EXAMPLE</Center></H1></br> <!-- Heading for form with h1(tyoe of heading) and placing at center -->
-
-<form> <!-- from open tag -->
-
-Enter your first name: <input type="text" name="firstname"><br> <!-- text field to enter first name -->
-
-Enter youy last name: <input type="text" name="lastname"><br> <!-- text field to enter last name -->
-
-<!-- radio button to select one value -->
-
-Select your Gender: <input type="radio" name="gender" value="male"> Male <input type="radio" name="gender" value="female"> Female<br>
-
-<!-- Check box to select a value -->
-
-Select a Color: <input type="checkbox" class="radio" name="red" value="1"> RED <input type="checkbox" class="radio" name="white" value="1"> White
-
-<input type="checkbox" class="radio" name="blue" value="1"> Blue <br>
-
-<!-- drop down box -->
-
-Select a Sport: <select name="sports">
-
-<option value="cricket">Cricket</option>
-
-<option value="football">Foot Ball</option>
-
-<option value="basketball">Basket Ball</option>
-
-<option value="Hockey">Hockey</option>
-
-<option value="wrestling">Wresting</option>
-
-<option value="shooting">Shooting</option>
-
-<option value="baseball">Base Ball</option>
-
-<option value="volleyball">Volley Ball</option>
-
-<option value="tennis">Tennis</option>
-
-<option value="badminton">Badminton</option>
-
-</select><br>
-
-<!-- text area feild to write description with size 20*50 -->
-
-Write about Global Warming: <textarea name="globalwarming" rows="20" cols="50"></textarea><br>
-
-Enter password: <input type="password" name="passw"><br> <!-- password feild -->
-
-Select a file to upload: <input type="file" name="fileToSelect" id="fts><br> <!-- field to select a file -->
-
-<input type="submit" value="Submit"> <!-- Submit button to submit the above filled data -->
-
-</form> <!-- form end tag -->
-
-</BODY> <!-- body end tag -->
-
-</HTML> <!-- HTML end tag -->
+ <!doctype html>
+  
+<html>  
+<head>
+    <style type="text/css">
+	</style>
+</head>
+<body>
+     <img src="Valenciacollege.jpg" height="230" />
+<form>
+    <p><strong>Personal Information-</p></strong>
+    First Name: <input type="text"   name="Firstname"  maxlength="20" value="Enter First Name Here"/>
+	Last Name: <input type="text" name="Lastname" maxlength="20" value="Enter Last Name Here"/>
+	    <br/>
+		 <p>Username: <input type="text" name="username" />
+		 Password: <input type="password" name="pword" maxlength="10" /> </p>	
+	<p>Are you a Male or Female:  Male: <input type="radio" name="sex" value="male" /> 
+	Female: <input type="radio" name="sex" value="female" /></p>
+		 <p>Select Red, White, or Blue: Red <input type="checkbox" name="colors" value="red" />
+		 White   <input type="checkbox" name="colors" value="white" />
+		 Blue  <input type="checkbox" name="colors " value="blue" /></p>
+		 <p>Choose your Favorite Sport: <select name="sports" /></p>
+		      <option value="Football">Football</option>
+			  <option value="Volletball">Volleyball</option>
+			  <option value="Basketball">Basketball</option>
+			  <option value="Ice Hockey">Ice Hockey</option>
+			  <option value="Cheerleading">Cheerleading</option>
+			  <option value="Gymnastics">Gymnastics</option>
+			  <option value="Dance">Dance</option>
+			  <option value="Track">Track</option>
+			  <option value="Soccer">Soccer</option>
+			  <option value="Fencing">Fencing</option>
+		 </select>
+		 
+		 <p>Please write about your point of view about Global Warming:
+		 <br/>
+		 <textarea name="bio" rows="20" cols="50"/>
+		 </textarea></p>
+	     
+		 <p>Select a file:</p>
+		 <input type="file" name="yourfile"/>
+		 <br/>
+		 <p><input type="submit" value="Submit!" /> </p>
+</form>
+</body>
+<img src="Logo.png" height="350"/>
+</html> 
