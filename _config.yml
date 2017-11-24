@@ -122,3 +122,5 @@ strong {
 	font-weight: bold;
 	text-decoration: underline;
 }
+
+theme: jekyll-theme-merlot
